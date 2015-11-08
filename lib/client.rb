@@ -40,7 +40,7 @@ module Jawbone
     end
 
     base_strings = ["move", "body_event", "workout", "sleep", "meal",
-      "cardiac_event", "generic_event"]
+      "generic_event"]
 
     base_strings.each do |base|
       plural = base + "s"
