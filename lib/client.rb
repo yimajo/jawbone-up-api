@@ -6,8 +6,8 @@ module Jawbone
 
     attr_accessor :token
 
-    API_VERSION = "1.0"
-    BASE_URL = "https://jawbone.com/nudge/api/v.1.0"
+    API_VERSION = "1.1"
+    BASE_URL = "https://jawbone.com/nudge/api/v.1.1"
 
     include HTTParty
 
